@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UsersPage</title>
+</head>
+ <body>
+    <form method ="post" class="from-group" action="">
+        {% csrf_token %}
+           <div class="container" align="center" > Enter your name
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >
+            <label for="username">Name for chat</label>
+            <input type="text" placeholder ="Enter username" name = "username"  required>
+        </div>
+        <div class="container" align="center" >&nbsp
+        </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center">
+            <button type = "submit" class = "btn btn-success">Enter chat</button>
+        </div>
+    </form>
+
+</body>
+</html>

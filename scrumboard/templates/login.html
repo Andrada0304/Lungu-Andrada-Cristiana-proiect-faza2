@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+ <body>
+    <form method ="post" class="from-group" action="">
+        {% csrf_token %}
+           <div class="container" align="center" >Login
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >
+            <label for="username">Username</label>
+            <input type="text" placeholder ="Enter username" name = "username" required>
+        </div>
+        <div class="container" align="center" >&nbsp
+        </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center">
+            <label for="password">Password</label>
+            <input type="password" placeholder ="Enter password" name = "password" required>
+        </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center" >&nbsp
+           </div>
+        <div class="container" align="center">
+            <button type = "submit" class = "btn btn-success">Login</button>
+        </div>
+    </form>
+
+</body>
+</html>
